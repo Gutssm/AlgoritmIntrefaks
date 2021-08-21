@@ -3,8 +3,10 @@ from pymystem3 import Mystem
 import string
 import os 
 
-    
 #загрузка dataset
+print ("Введите путь к json файлу: ")
+file = input()
+
 with open("data/dataset_public.json", "r", encoding="utf8") as read_file:
     ng_1_data = json.load(read_file)
 
