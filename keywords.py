@@ -6,7 +6,7 @@ import json
 from pymystem3 import Mystem
 from nltk import FreqDist
 import string
-import os 
+import os
 import re
     
 #загрузка dataset
