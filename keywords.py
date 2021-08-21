@@ -1,8 +1,14 @@
 import json
 from pymystem3 import Mystem
 import string
+<<<<<<< HEAD
 import os 
 
+=======
+import os
+import re
+    
+>>>>>>> 290b430a37acff339b2ad08299374b89245917be
 #загрузка dataset
 print ("Введите путь к json файлу: ")
 file = input()
